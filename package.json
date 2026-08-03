@@ -1,0 +1,12 @@
+{
+  "name": "wem-maturity-assessment",
+  "version": "1.0.0",
+  "description": "Genesys WEM Maturity Snapshot — booth kiosk web app.",
+  "private": true,
+  "scripts": {
+    "test": "node test/run-flow-test.js && node test/fuzz-report-test.js"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
